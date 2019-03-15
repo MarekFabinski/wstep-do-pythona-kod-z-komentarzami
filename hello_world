@@ -1,0 +1,18 @@
+def main():                     # definiujemy nazwę naszej funkcji, nazwa może być dowolna
+    print("Hello world!")       # funkcją print() wypisujemy tekst w konsoli
+
+    user_input = input()        # funkcja input() pobiera napis podany przez użytkownika w konsoli,
+                                # który zostaje przypisany do zmiennej którą nazwaliśmy user_input
+    print("You said: " + user_input)
+
+
+    # prosty program, który pyta nas o imię i nazwisko, a następnie nas wita
+    print("What\'s your name?")
+    name = input()
+    print("What\'s your surname?")
+    surname = input()
+    print("Hello " + name + " " + surname)
+
+
+if __name__ == "__main__":
+    main()                      # wywołanie naszej funkcji main()
